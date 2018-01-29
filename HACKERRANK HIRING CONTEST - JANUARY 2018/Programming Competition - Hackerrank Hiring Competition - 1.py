@@ -1,0 +1,13 @@
+n=int(input())
+arr=[]
+arr1=[]
+ans=""
+ans1=-12
+while(n):
+    n-=1
+    a,b,c=input().split()
+    b,c=int(b),int(c)
+    if(c-b>ans1):
+        ans1=c-b
+        ans=a
+print(ans,ans1)
